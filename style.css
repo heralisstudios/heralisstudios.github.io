@@ -422,3 +422,51 @@ html {
 .volver-arriba:hover {
     background: #555;
 }
+
+/* =========================================================
+RESPONSIVO EXTRA PARA MOVILES
+========================================================= */
+@media (max-width: 600px) {
+    /* HERO */
+    .izquierda-principal h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+    .texto-destacado {
+        font-size: 14px;
+        text-align: center;
+    }
+    .derecha-principal {
+        margin-top: 20px;
+    }
+
+    /* PORTAFOLIO */
+    .mini-pagina {
+        width: 100%;
+        max-width: 320px;
+        height: 200px;
+    }
+    .mini-pagina iframe {
+        transform: scale(0.35);
+    }
+
+    /* SERVICIOS */
+    .servicio-paginas img,
+    .servicio-automatizacion img,
+    .servicio-3 img {
+        height: 120px;
+    }
+
+    /* FOOTER */
+    .info-pie {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 8px;
+    }
+
+    /* MODAL */
+    .modal {
+        padding: 20px;
+    }
+}
