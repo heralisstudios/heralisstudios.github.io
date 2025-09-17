@@ -1,0 +1,194 @@
+/* === VARIABLES === */
+:root {
+    --color-fondo: #ffffff;
+    --color-texto: #333333;
+    --color-secundario: #555555;
+    --color-primario: #2563eb;
+    --color-primario-hover: #1e40af;
+    --color-suave: #f9fafb;
+    --color-footer: #777777;
+
+    --ancho-contenedor: 1200px;
+    --espaciado-seccion: 80px;
+}
+
+/* === RESETEO Y BASE === */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: var(--color-texto);
+    background: var(--color-fondo);
+}
+
+.contenedor {
+    max-width: var(--ancho-contenedor);
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+/* === ENCABEZADO === */
+.encabezado {
+    background: var(--color-fondo);
+    border-bottom: 1px solid #eee;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: var(--color-texto);
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: var(--color-primario);
+}
+
+/* === HERO === */
+.seccion-hero {
+    min-height: 600px;
+    background: url("https://picsum.photos/1600/800?grayscale") center/cover no-repeat fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    padding: 40px;
+}
+
+.hero__titulo {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero__subtitulo {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.boton {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.boton--principal {
+    background: var(--color-primario);
+    color: #ffffff;
+}
+
+.boton--principal:hover {
+    background: var(--color-primario-hover);
+}
+
+/* === PORTFOLIO === */
+.seccion-portfolio {
+    padding: var(--espaciado-seccion) 0;
+}
+
+.seccion__titulo {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+.portfolio__grilla {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.portfolio__item img {
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+}
+
+/* === SOBRE MÍ === */
+.seccion-sobre {
+    padding: var(--espaciado-seccion) 0;
+    text-align: center;
+}
+
+.seccion__texto {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: var(--color-secundario);
+}
+
+/* === CONTACTO === */
+.seccion-contacto {
+    padding: var(--espaciado-seccion) 0;
+    text-align: center;
+}
+
+.formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.formulario__campo {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.formulario__boton {
+    background: var(--color-primario);
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.formulario__boton:hover {
+    background: var(--color-primario-hover);
+}
+
+/* === PIE DE PÁGINA === */
+.pie-pagina {
+    text-align: center;
+    padding: 20px;
+    color: var(--color-footer);
+    font-size: 14px;
+    background: var(--color-suave);
+}
+
+html {
+    scroll-behavior: smooth;
+}

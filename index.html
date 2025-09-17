@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Heralis Studios — Portafolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function abrirModal() {
+            document.getElementById('fondo-modal').style.display = 'flex';
+        }
+        function cerrarModal() {
+            document.getElementById('fondo-modal').style.display = 'none';
+        }
+    </script>
+    <style>
+        body {
+            opacity: 0;
+            animation: fadeIn 1.5s ease forwards;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header class="contenedor">
+        <nav class="barra-navegacion">
+            <div class="marca">
+                <div class="logo"><img alt="" src="imagenes/ImgLogo.png" style="width:100%; height:auto; display:block;"></div>
+                <div>
+                    <div class="nombre-marca">Heralis Studios</div>
+                    <div class="eslogan-marca">Estudio creativo digital</div>
+                </div>
+            </div>
+            <div class="enlaces-navegacion">
+                <a class="boton" href="#sobre">Quiénes somos</a>
+                <a class="boton" href="#servicios">Servicios</a>
+                <a class="boton" href="#portafolio">Ver proyectos</a>
+                <a class="boton" href="#contacto">Contáctanos</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="contenedor">
+        <!-- HERO -->
+        <section class="seccion-principal" id="inicio">
+            <div class="izquierda-principal">
+                <h1>Ideas digitales que se convierten en proyectos reales</h1>
+                <p class="texto-destacado">Diseño, automatización y tecnología para que tu negocio destaque en lo digital.</p>
+            </div>
+            <div class="derecha-principal">
+                <div class="maqueta">
+                    <img src="imagenes/ImgHero.png" alt="Vista previa maqueta">
+                </div>
+            </div>
+        </section>
+
+        <!-- QUIÉNES SOMOS -->
+        <section class="quienes" id="sobre">
+            <h3>Quiénes somos</h3>
+            <p>Somos Heralis Studios, un estudio creativo que combina diseño, automatización y soluciones digitales.</p>
+        </section>
+
+        <!-- SERVICIOS -->
+        <section id="servicios">
+            <h3>Servicios</h3>
+            <div class="servicios">
+                <div class="servicio-paginas">
+                    <img src="imagenes/ImgSPaginas.png" alt="Páginas web">
+                    <h4>Páginas web</h4>
+                    <p>Desarrollamos sitios web modernos, rápidos y optimizados.</p>
+                </div>
+
+                <div class="servicio-automatizacion">
+                    <img src="imagenes/ImgSAutomatizacion.png" alt="Automatización">
+                    <h4>Automatización</h4>
+                    <p>Implementamos automatizaciones inteligentes que optimizan procesos y ahorran tiempo.</p>
+                </div>
+
+                <div class="servicio-3">
+                    <img src="" alt="3">
+                    <h4>-</h4>
+                    <p>---</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PORTAFOLIO -->
+        <section id="portafolio">
+            <h3>Proyectos & Plantillas</h3>
+            <div class="portafolio">
+                <!-- Proyectos -->
+                <div class="mini-pagina">
+                    <iframe src="http://127.0.0.1:5500/plantillas/pagina1/index.html"></iframe>
+                </div>
+                <div class="mini-pagina">
+                    <iframe src="http://127.0.0.1:5500/plantillas/pagina2/index.html"></iframe>
+                </div>
+                <div class="mini-pagina">
+                    <iframe src="http://127.0.0.1:5500/plantillas/pagina3/index.html"></iframe>
+                </div>   
+                <div class="mini-pagina">
+                    <iframe src="http://127.0.0.1:5500/plantillas/pagina4/index.html"></iframe>
+                </div>   
+            </div>
+        </section>
+
+        <!-- LLAMADO FINAL -->
+        <section>
+            <div class="llamado-final" id="contacto">
+                <h3>¿Listo para transformar tu idea en realidad digital?</h3>
+                <button class="boton" onclick="abrirModal()">Contáctanos</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- MODAL -->
+    <div class="fondo-modal" id="fondo-modal">
+        <div class="modal">
+            <h3>Contáctanos</h3>
+            <form action="https://formspree.io/f/mvgbnory" method="POST" style="display:flex; flex-direction:column; gap:16px;">
+                <div style="display:flex; flex-direction:column; gap:8px;">
+                    <label>Nombre completo</label>
+                    <input type="text" name="nombre" placeholder="Nombre completo" required>
+                </div>
+                <div style="display:flex; flex-direction:column; gap:8px;">
+                    <label>Correo electrónico</label>
+                    <input type="email" name="email" placeholder="Correo electrónico" required>
+                </div>
+                <div style="display:flex; flex-direction:column; gap:8px;">
+                    <label>Servicio requerido</label>
+                    <select name="servicio" required>
+                        <option value="">Selecciona un servicio</option>
+                        <option value="web">Páginas web</option>
+                        <option value="automatizacion">Automatización</option>
+                    </select>
+                </div>
+                <div style="display:flex; flex-direction:column; gap:8px;">
+                    <label>Mensaje / Detalles</label>
+                    <textarea name="mensaje" placeholder="Mensaje / Detalles" rows="4"></textarea>
+                </div>
+                <div style="display:flex; gap:10px; justify-content:flex-end; margin-top:8px;">
+                    <button type="button" onclick="cerrarModal()">Cancelar</button>
+                    <button type="submit" class="boton">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer class="contenedor">
+        <div class="info-pie">
+            <strong>© 2025 HeralisStudios</strong>
+            <div>HeralisStudios@gmail.com · 3535623882</div>
+            <div class="redes">
+                <a href="https://www.instagram.com/heralisstudios/?next=%2F">Instagram</a>
+                <a href="#">WhatsApp</a>
+                <a href="#">-</a>
+            </div>
+        </div>
+    </footer>
+
+    <a id="top"></a>
+    <a href="#top" class="volver-arriba">↑</a>
+
+    <script>
+        window.addEventListener("scroll", function() {
+            const boton = document.querySelector(".volver-arriba");
+            if (window.scrollY > 10) {
+                boton.style.display = "flex";
+            } else {
+                boton.style.display = "none";
+            }
+        });
+        document.querySelector(".volver-arriba").addEventListener("click", function(e) {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    </script>
+</body>
+</html>

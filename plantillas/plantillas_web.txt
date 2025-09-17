@@ -1,0 +1,97 @@
+Colección de Plantillas Web
+
+1. Landing Page Minimalista – ideal para startups y campañas
+
+-   Objetivo: Captar leads rápidamente con un diseño limpio y directo.
+-   Secciones típicas: Hero con mensaje central, beneficios, testimonio
+    y formulario de contacto.
+-   Uso recomendado: Lanzamiento de apps, productos digitales, campañas
+    de marketing.
+
+            PROMPT IMAGEN
+            Una captura simulada (mockup) de una landing page minimalista, moderna y elegante. Fondo blanco, mucho espacio en blanco, tipografía sans-serif limpia.
+            En la parte superior, un encabezado con logo a la izquierda y un botón azul a la derecha.
+            Al centro, un gran título llamativo con un subtítulo más corto debajo.
+            Debajo, un botón principal azul con esquinas redondeadas.
+            En la parte baja de la imagen, 3 secciones con íconos simples y títulos cortos representando características.
+            El diseño debe verse luminoso, con líneas limpias y ordenadas, estilo startup tecnológica.
+
+2. Corporativa Clásica – sobre la empresa, servicios y contacto
+
+-   Objetivo: Presentar una empresa de forma profesional y confiable.
+-   Secciones típicas: Inicio, sobre nosotros, servicios, clientes,
+    contacto.
+-   Uso recomendado: Empresas tradicionales, consultoras, agencias.
+            
+            PROMPT IMAGEN
+            Una captura simulada (mockup) de una página web corporativa clásica, profesional y confiable.
+            Encabezado con logo a la izquierda y menú de navegación a la derecha (Inicio, Nosotros, Servicios, Clientes, Contacto).
+            Un hero sobrio con fondo azul oscuro degradado y texto en blanco: un gran título serio y un botón claro.
+            Debajo, una sección "Sobre nosotros" con un bloque de texto y una foto de equipo empresarial.
+            Luego, una grilla de 3 o 4 columnas con servicios representados por íconos elegantes y títulos simples.
+            Más abajo, un carrusel o cuadrícula con logos de clientes reconocidos.
+            Al final, un pie de página gris oscuro con información de contacto y redes sociales.
+            Estilo serio, corporativo, confiable, con tipografía sans-serif limpia y tonos azules, grises y blancos.
+
+3. Portfolio Creativo – para diseñadores, fotógrafos, agencias
+
+-   Objetivo: Mostrar trabajos visuales con un estilo atractivo.
+-   Secciones típicas: Galería de proyectos, sobre mí/nosotros,
+    servicios creativos, contacto.
+-   Uso recomendado: Diseñadores gráficos, fotógrafos, agencias de
+    marketing.
+
+            PROMPT IMAGEN
+            Una captura simulada (mockup) de un portfolio creativo, moderno y visualmente atractivo.
+            Encabezado minimalista con logo tipográfico y menú sencillo (Proyectos, Sobre mí, Servicios, Contacto).
+            Un hero con fondo claro y un título llamativo en tipografía artística, acompañado de un botón colorido.
+            Debajo, una galería de proyectos en cuadrícula con imágenes grandes de diseños o fotos (estilo dribbble/behance).
+            Sección "Sobre mí" con retrato circular del creador y un texto breve.
+            Una sección de "Servicios creativos" con íconos modernos y colores vibrantes.
+            Pie de página claro y minimalista con links a redes sociales.
+            Estilo artístico, moderno, colorido y visualmente llamativo, ideal para creativos.
+
+4. E-commerce Básico – catálogo y carrito simple
+
+-   Objetivo: Vender productos online de forma clara y funcional.
+-   Secciones típicas: Catálogo, fichas de producto, carrito de compras,
+    pago.
+-   Uso recomendado: Tiendas pequeñas, marcas emergentes, productos
+    digitales simples.
+
+5. Restaurante / Cafetería – menú, reservas, ubicación
+
+-   Objetivo: Atraer clientes mostrando menú y facilitar reservas.
+-   Secciones típicas: Menú digital, galería de fotos, reservas online,
+    ubicación/mapa.
+-   Uso recomendado: Restaurantes, bares, cafeterías, food trucks.
+
+6. Evento / Conferencia – agenda, ponentes, registro
+
+-   Objetivo: Informar y captar inscripciones para un evento específico.
+-   Secciones típicas: Programa, ponentes, formulario de registro,
+    ubicación.
+-   Uso recomendado: Congresos, charlas, seminarios, conferencias.
+
+7. Blog / Revista Digital – artículos, categorías, buscador
+
+-   Objetivo: Publicar contenido de valor y atraer tráfico recurrente.
+-   Secciones típicas: Listado de artículos, categorías, buscador,
+    autores.
+-   Uso recomendado: Blogs personales, revistas online, sitios de
+    noticias.
+
+8. Salud / Consultorio Médico – servicios, citas, testimonios
+
+-   Objetivo: Brindar confianza y facilitar la reserva de citas médicas.
+-   Secciones típicas: Servicios médicos, equipo de profesionales,
+    testimonios, citas online.
+-   Uso recomendado: Clínicas, consultorios, psicólogos, dentistas.
+
+9. Landing Moderna con Animaciones – transiciones dinámicas y llamadas a la acción
+
+-   Objetivo: Impactar visualmente y captar la atención del visitante.
+-   Secciones típicas: Hero animado, secciones con efectos de scroll,
+    CTA destacadas.
+-   Uso recomendado: Startups tecnológicas, campañas de marketing
+    digital, productos innovadores.

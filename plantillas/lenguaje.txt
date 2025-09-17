@@ -1,0 +1,50 @@
+1. Estructura de clases CSS / HTML
+formato:
+bloque__elemento--modificador (basado en BEM).
+Ejemplo:
+seccion-hero__titulo
+boton--principal
+caracteristica__icono--grande
+
+2. Prefijos recomendados
+seccion- → agrupa cada bloque principal (seccion-hero, seccion-testimonios).
+titulo- → para estilos de encabezados (titulo-principal, titulo-secundario).
+boton- → botones (boton--principal, boton--secundario).
+texto- → textos específicos (texto-destacado, texto-muted).
+tarjeta- → cajas o cards (tarjeta-testimonio, tarjeta-servicio).
+formulario- → formularios y campos (formulario__campo, formulario__boton).
+
+3. Funciones y variables (JavaScript)
+Verbos claros en presente.
+camelCase en español.
+Ejemplos:
+validarFormulario()
+mostrarMenu()
+enviarDatos()
+usuarioEmail, estaAbiertoMenu.
+
+4. Ejemplo aplicado a la Landing Minimalista
+Hero:
+seccion-hero
+seccion-hero__titulo
+seccion-hero__subtitulo
+boton--principal
+
+Características:
+seccion-caracteristicas
+caracteristica__titulo
+caracteristica__descripcion
+
+Testimonios:
+seccion-testimonios
+testimonio__cita
+testimonio__autor
+
+Call to Action:
+seccion-cta
+cta__formulario
+formulario__campo
+formulario__boton
+
+Footer:
+pie-pagina

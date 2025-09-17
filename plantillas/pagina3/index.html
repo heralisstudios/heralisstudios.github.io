@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Creativo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- === ENCABEZADO === -->
+    <header class="encabezado">
+        <nav class="navegacion contenedor">
+            <h1 class="logo">MiPortfolio</h1>
+            <ul class="menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#sobre">Sobre mí</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- === HERO === -->
+    <section id="inicio" class="seccion-hero">
+        <div class="hero__contenido">
+            <h2 class="hero__titulo">Diseño que inspira</h2>
+            <p class="hero__subtitulo">Mostrá tu trabajo con estilo y profesionalismo.</p>
+            <a href="#portfolio" class="boton boton--principal">Ver proyectos</a>
+        </div>
+    </section>
+
+    <!-- === PORTFOLIO === -->
+    <section id="portfolio" class="seccion-portfolio contenedor">
+        <h2 class="seccion__titulo">Proyectos destacados</h2>
+        <div class="portfolio__grilla">
+            <div class="portfolio__item"><img src="https://picsum.photos/400/300?random=1" alt="Proyecto 1"></div>
+            <div class="portfolio__item"><img src="https://picsum.photos/400/300?random=2" alt="Proyecto 2"></div>
+            <div class="portfolio__item"><img src="https://picsum.photos/400/300?random=3" alt="Proyecto 3"></div>
+            <div class="portfolio__item"><img src="https://picsum.photos/400/300?random=4" alt="Proyecto 4"></div>
+            <div class="portfolio__item"><img src="https://picsum.photos/400/300?random=5" alt="Proyecto 5"></div>
+            <div class="portfolio__item"><img src="https://picsum.photos/400/300?random=6" alt="Proyecto 6"></div>
+        </div>
+    </section>
+
+    <!-- === SOBRE MÍ === -->
+    <section id="sobre" class="seccion-sobre contenedor">
+        <h2 class="seccion__titulo">Sobre mí</h2>
+        <p class="seccion__texto">
+            Soy un diseñador apasionado por transformar ideas en experiencias visuales.
+            Con más de X años de experiencia, ayudo a marcas y personas a destacarse con
+            proyectos creativos y funcionales.
+        </p>
+    </section>
+
+    <!-- === CONTACTO === -->
+    <section id="contacto" class="seccion-contacto contenedor">
+        <h2 class="seccion__titulo">Contacto</h2>
+        <form class="formulario-contacto">
+            <input type="text" class="formulario__campo" placeholder="Tu nombre">
+            <input type="email" class="formulario__campo" placeholder="Tu email">
+            <textarea class="formulario__campo" rows="5" placeholder="Tu mensaje"></textarea>
+            <button type="submit" class="boton boton--principal">Enviar mensaje</button>
+        </form>
+    </section>
+
+    <!-- === PIE DE PÁGINA === -->
+    <footer class="pie-pagina">
+        <p>© 2025 HeralisStudios | Plantilla creada por HeralisStudios</p>
+    </footer>
+</body>
+</html>

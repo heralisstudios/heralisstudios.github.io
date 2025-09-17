@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa Corporativa</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4f3f0e5a4f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- ENCABEZADO -->
+    <header class="encabezado">
+        <div class="contenedor encabezado__contenido">
+            <div class="logo">Tu empresa</div>
+            <nav class="navegacion">
+                <a href="#inicio" class="navegacion__enlace">Inicio</a>
+                <a href="#sobre" class="navegacion__enlace">Sobre nosotros</a>
+                <a href="#servicios" class="navegacion__enlace">Servicios</a>
+                <a href="#clientes" class="navegacion__enlace">Clientes</a>
+                <a href="#contacto" class="navegacion__enlace">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="inicio" class="inicio">
+        <div class="inicio__overlay"></div>
+        <div class="contenedor inicio__contenido">
+            <h1 class="inicio__titulo">Impulsamos el crecimiento de tu negocio</h1>
+            <p class="inicio__texto">Confianza, experiencia y resultados comprobados para empresas de todos los tamaños.</p>
+            <div class="inicio__botones">
+                <a href="#servicios" class="boton">Nuestros servicios</a>
+                <a href="#contacto" class="boton boton--secundario">Contáctanos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE NOSOTROS -->
+    <section id="sobre" class="sobre">
+        <div class="contenedor sobre__contenido">
+            <div class="sobre__texto">
+                <h2 class="titulo-seccion">Sobre nosotros</h2>
+                <p>Con más de 10 años de trayectoria, ofrecemos soluciones estratégicas adaptadas a las necesidades de cada cliente. Nuestro equipo multidisciplinario garantiza un acompañamiento integral y resultados sostenibles.</p>
+            </div>
+            <div class="sobre__imagen">
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80" alt="Nuestro equipo">
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios" class="servicios">
+        <div class="contenedor">
+            <h2 class="titulo-seccion">Servicios</h2>
+            <div class="servicios__grilla">
+                <div class="servicio">
+                    <i class="fas fa-briefcase servicio__icono"></i>
+                    <h3 class="servicio__titulo">Consultoría</h3>
+                    <p class="servicio__texto">Análisis estratégico para optimizar procesos y potenciar la rentabilidad.</p>
+                </div>
+                <div class="servicio">
+                    <i class="fas fa-code servicio__icono"></i>
+                    <h3 class="servicio__titulo">Desarrollo</h3>
+                    <p class="servicio__texto">Soluciones digitales a medida: aplicaciones, sistemas y plataformas web.</p>
+                </div>
+                <div class="servicio">
+                    <i class="fas fa-bullhorn servicio__icono"></i>
+                    <h3 class="servicio__titulo">Marketing</h3>
+                    <p class="servicio__texto">Campañas digitales y estrategias creativas para aumentar visibilidad.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CLIENTES -->
+    <section id="clientes" class="clientes">
+        <div class="contenedor">
+            <h2 class="titulo-seccion">Confían en nosotros</h2>
+            <div class="clientes__logos">
+                <img src="https://i.pinimg.com/736x/fd/b0/50/fdb050d4b24a2d0afacbf934113b0112.jpg" alt="Cliente 1">
+                <img src="https://i.pinimg.com/736x/fd/b0/50/fdb050d4b24a2d0afacbf934113b0112.jpg" alt="Cliente 2">
+                <img src="https://i.pinimg.com/736x/fd/b0/50/fdb050d4b24a2d0afacbf934113b0112.jpg" alt="Cliente 3">
+                <img src="https://i.pinimg.com/736x/fd/b0/50/fdb050d4b24a2d0afacbf934113b0112.jpg" alt="Cliente 4">
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenedor contacto__contenido">
+            <div class="contacto__formulario">
+                <h2 class="titulo-seccion">Contacto</h2>
+                <form>
+                    <input type="text" placeholder="Nombre" required>
+                    <input type="email" placeholder="Correo electrónico" required>
+                    <textarea placeholder="Mensaje" rows="5" required></textarea>
+                    <button type="submit" class="boton">Enviar mensaje</button>
+                </form>
+            </div>
+            <div class="contacto__info">
+                <p><strong>Teléfono:</strong> +34 123 456 789</p>
+                <p><strong>Email:</strong> info@miempresa.com</p>
+                <p><strong>Dirección:</strong> Calle Ejemplo 123, Ciudad</p>
+                <div class="contacto__redes">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PIE -->
+    <footer class="pie">
+        <div class="contenedor pie__contenido">
+            <p>© 2025 HeralisStudios | Plantilla creada por HeralisStudios</p>
+            <nav class="pie__navegacion">
+                <a href="#">Política de privacidad</a>
+                <a href="#">Términos de uso</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
